@@ -3,7 +3,7 @@ import React from 'react'
 import './Backdrop.css'
 
 const backdrop = (props) => {
-  const cssClasses = ['Backdrop', props.show ? 'BackdropOpen' : 'BackropShow']
+  const cssClasses = ['Backdrop', props.show ? 'BackdropOpen' : 'BackdropShow']
   return <div className={cssClasses.join(' ')}></div>
 }
 
